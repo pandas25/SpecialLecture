@@ -20,7 +20,7 @@ class TestCSVPrinter(unittest.TestCase):
 
     def test_read4(self):
         try:
-            printer = CSVPrinter("sample.csv")
+            printer = CSVPrinter("sa.csv")
             printer.read()
             unittest.TestCase.fail("存在なし")
         except Exception as e:
