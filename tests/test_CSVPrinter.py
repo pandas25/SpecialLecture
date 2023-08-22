@@ -20,7 +20,7 @@ class TestCSVPrinter(unittest.TestCase):
 
     def test_read4(self):
         try:
-            printer = CSVPrinter("sample.csv")
+            printer = CSVPrinter("../speciallecture/sample.csv")
             printer.read()
             unittest.TestCase.fail("There is None.")
         except Exception:
