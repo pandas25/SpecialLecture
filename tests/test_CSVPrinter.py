@@ -22,6 +22,6 @@ class TestCSVPrinter(unittest.TestCase):
         try:
             printer = CSVPrinter("sample.csv")
             printer.read()
-            unittest.TestCase.fail("存在なし")
+            unittest.TestCase.fail("There is None.")
         except Exception:
             pass
